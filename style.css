@@ -1,0 +1,547 @@
+*{
+    font-family: 'Cinzel Decorative', cursive;
+}
+::selection {
+    background-color: #c61e2f;
+    /* background-color: rgb(245, 229, 0); */
+    /* background-color:blue; */
+    color: #fff;
+    /* color: rgb(17, 0, 255); */
+    
+}
+
+.navbar{
+    /* border: 2px solid black; */
+    display: flex;
+    top: 0px;
+    width: 100%;
+    
+}
+.logo {
+    text-decoration: none;
+    list-style-type:none; 
+    padding: 0px 10px;
+    width: 60%;
+    /* width: 100px; */
+    float: right;
+    /* border: 2px solid blue; */
+}
+.logo a{
+    text-decoration: none;
+    list-style-type:none; 
+    color: black;
+    float: left;
+}
+
+.navbar .navli{
+    width: 40%;
+    float: right;
+    clear: both;
+    /* border: 2px solid red; */
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: center; */
+    float: right;
+}
+    
+.navbar ul{
+    text-decoration: none;
+    list-style-type:none; 
+    display: flex;
+    float: left;
+    padding-left: 0px;
+    
+}
+.navbar ul li {
+    margin:0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: black;
+    /* font-weight: bold; */
+    font-size: 17px;
+    font-weight: bold;
+}
+#nav{
+    display: flex;
+    width: 100%;
+}
+#phnav{
+    display: none;
+}
+
+
+.navli ul li a:hover{
+    border-bottom: 2px solid black ; 
+    /* text-decoration: underline; */
+}
+
+@media (min-width:700px) and (max-width:1208px) {
+    .navbar ul a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .navbar ul li {
+        margin: 0px 5px 0px 5px;
+        /* padding: 0px 10px 0px 10px; */
+    }
+    .abbox{
+        width: 40%;
+        /* text-align: center; */
+        margin: auto;
+        height: 600px;
+        font-size: 12px;
+    }
+    
+}
+@media (min-width:700px) and (max-width:1038px) {
+    .navbar ul a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .navbar ul li {
+        margin: 0px 5px 0px 5px;
+        padding: 0px 2.5px 0px 2.5px;
+    }
+    .abbox{
+        width: 40%;
+        /* text-align: center; */
+        margin: auto;
+        height: 600px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:493px) and (max-width:785px) {
+    #nav{
+        display: none;
+    }
+   #phnav{
+       display: block;
+       width: 100%;
+   }
+   .navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-size: 21px;
+    /* font-size: 30px; */
+    font-weight: bold;
+}
+   .phlogo{
+       width: 100%;
+       margin: auto;
+   }
+   .phlogo a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+   }
+
+   .abbox{
+        width: 40%;
+        /* text-align: center; */
+        margin: auto;
+        height: 600px;
+        font-size: 10px;
+    }
+    .phnavli  {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .conbox {
+        width: 40%;
+        margin: auto;
+        height: 600px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:60px) and (max-width:493px) {
+    #nav{
+        display: none;
+    }
+   #phnav{
+       display: block;
+       width: 100%;
+   }
+   .navbar ul a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    }
+   .phlogo{
+       width: 100%;
+       margin: auto;
+   }
+   .phlogo a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+
+   }
+
+
+   .abbox{
+        width: 40%;
+        /* text-align: center; */
+        margin: auto;
+        height: 600px;
+        font-size: 9px;
+    }
+    .phnavli  {
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar ul li {
+        margin: 0px 5px 0px 5px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    #main1 #mbox .mheading {
+        display: inline-block;
+        font-size: 80px;
+        color: aliceblue;
+    }
+    .conbox {
+        width: 40%;
+        margin: auto;
+        height: 600px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    main #Rec{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    main #Rec .recbox {
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        color: aliceblue;
+        margin: auto;
+    }
+    main #Rec .recbox h1 {
+        margin-top: 41px;
+        padding-top: 19px;
+    }
+    .recbox div .recbtn {
+        width: 73px;
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+        height: 26px;
+        justify-content: center;
+        margin: auto;
+        transition-property: all;
+        transition-duration: 1s;
+        cursor: pointer;
+    }
+    
+    .post p{
+        font-size: 10px;
+    }
+    @media (min-width:60px) and (max-width:320px){
+        #main1 #mbox .mheading {
+            display: inline-block;
+            font-size: 69px;
+            color: aliceblue;
+        }
+        
+        
+        .navbar ul li {
+            margin: 0px 2px;
+        }
+        #contact{
+            width: 100%;
+            margin: auto;
+        }
+
+        #contact #iconbox .icons {
+            width: 16px;
+            height: 14px;
+            color: black;
+            padding: 20px;
+            margin: auto;
+        }
+        #contact #iconbox{
+            width: 100%;
+            margin: auto;
+        }
+        #foot {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            font-size: 14px;
+        }
+        .navbar ul li {
+            margin: 0px;
+        }
+        .navbar ul {
+            text-decoration: none;
+            list-style-type: none;
+            display: flex;
+            float: left;
+            padding-left: 0px;
+        }
+        .abbox {
+            width: 40%;
+            /* text-align: center; */
+            margin: auto;
+            height: 600px;
+            font-size: 8px;
+        }
+    }
+
+}
+/* Main */
+#main1{
+    background: url("./images/pexels-lisa-918327.jpg") no-repeat center center/cover;
+    height: 530px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.9;
+    
+    
+}
+#mbox{
+    width: 100%;
+    margin: auto;
+}
+.mheading{
+    display: inline-block;
+    font-size: 95px;
+    color: aliceblue;
+}
+.btn{
+    background: transparent;
+    width: 143px;
+    height: 38px;
+    color: aliceblue;
+    border:2px solid whitesmoke;
+    cursor: pointer;
+    transition-property:all;
+    transition-duration: 1s;
+
+}
+.btn:hover{
+    background-color: #2a3637;
+    /* border: 2px solid #2a3637; */
+}
+
+/* contact  */
+
+#contact {
+    background: white;
+    align-items: center;
+    justify-items: center;
+     margin-top: 10px;
+    padding: px;
+    width: 100%;
+    height: 100%;
+    display: felx;
+}
+#iconbox{
+    width: 340px;
+    display: felx;
+    margin: auto;
+    
+}
+#iconbox a{
+    text-decoration: none;
+
+}
+.icons{
+    width: 24px;
+    height: 24px;
+    color: black;
+    padding: 20px;
+}
+/* .icons:hover{
+    border-bottom: 2px solid #c61e2f;
+    background: #c61e2f;
+    
+} */
+/* footer */
+#foot{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Receipies */
+
+.pagehead{
+text-align: center;
+}
+#Rec{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.recbox{
+    width: 33%;
+    text-align: center;
+    height: 600px;
+    color: aliceblue;
+    margin: 10px;
+}
+#vegimg{
+    background: url(./images/pexels-monicore-1391487.jpg) no-repeat center center/cover;
+    opacity: 0.9; 
+}
+#nvegimg{
+    background: url(./images/pexels-jonathan-borba-2983099.jpg) no-repeat center center/cover;
+    opacity: 0.9; 
+
+}
+#swimg{
+    background: url(./images/pexels-tijana-drndarski-3338681.jpg) no-repeat center center/cover;
+    opacity: 0.9; 
+
+}
+
+.recbox h1{
+    margin-top: 112px;
+}
+.recbox div .recbtn{
+    width: 100px;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    height: 40px;
+    justify-content: center;
+    margin: auto;
+    transition-property: all;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+.recbox div .recbtn:hover{
+    background:#00000082 ;
+}
+
+/* About */
+#abpage{
+    display: flex;
+
+}
+#abimg{
+    background: url("./images/pexels-sarah-chai-7262910.jpg")no-repeat center center/cover;
+
+}
+.abbox{
+    width: 40%;
+    /* text-align: center; */
+    margin: auto;
+    height: 600px;
+    
+}
+
+
+/* contact */
+
+#conpage{
+    display: flex;
+}
+#conimg{
+    background: url("./images/pexels-lumn-604969.jpg") no-repeat center center/cover;
+}
+.conbox{
+    width: 40%;
+    margin: auto;
+    height: 600px;
+    font-weight: bold;
+}
+.lablebox{
+    display: block;
+    width: 80%;
+    height: 26px;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.txbox{
+    width: 80%;
+    height: 101px;
+}
+#conbtn{
+    width: 110px;
+    height: 35px;
+    border: none;
+    background: #8fa7b3;
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 1s;
+}
+#conbtn:hover{
+    background: #246c91;
+    font-weight: bold;
+}
+#conbtnbox{
+    width: 150px;
+    margin: auto;
+    
+}
+
+
+
+
+/* veg */
+
+#vegbox{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.pbox{
+    width: 100%;
+    display: flex;
+    /* background: #a52a2a47; */
+    margin: 20px 0px 20px 0px ;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+.post{
+    width: 50%;
+    height: 300px;
+    margin: 10px;
+    border: 3px solid black;
+    border-style: dotted;
+    border-radius: 20x;
+    text-align: left;
+    padding: 10px;
+}
+.post a{
+    color: black;
+    text-decoration: none;
+}
+#postimg1{
+    background: url("./images/pexels-edward-eyer-1049626.jpg")no-repeat center center/cover ;
+    width: 50%;
+    height: 300px;
+    border: none;
+}
